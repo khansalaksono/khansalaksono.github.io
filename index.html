@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>SHIMA</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Travelix Project">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
+<link rel="stylesheet" type="text/css" href="styles/main_styles.css">
+<link rel="stylesheet" type="text/css" href="styles/responsive.css">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Archivo:wght@700&family=PT+Serif&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="super_container">
+	
+	<!-- Header -->
+
+	<header class="header">
+
+		<!-- Top Bar -->
+
+		<div class="top_bar">
+			<div class="container">
+				<div class="row">
+					<div class="col d-flex flex-row">
+						<div class="social">
+							<ul class="social_list">
+								<li class="social_list_item"><a href="#">Tentang Kami</a></li>
+							</ul>
+						</div>
+						<div class="user_box ml-auto">
+							<div class="user_box_login user_box_link"><a href="loginpage.html">login</a></div>
+							<div class="user_box_register user_box_link"><a href="register.html">register</a></div>
+						</div>
+					</div>
+				</div>
+			</div>		
+		</div>
+
+		<!-- Main Navigation -->
+
+		<nav class="main_nav">
+			<div class="container">
+				<div class="row">
+					<div class="col main_nav_col d-flex flex-row align-items-center justify-content-start">
+						<div class="logo_container">
+							<div class="logo"><a href="#"><img src="images/logo.png" width="70" height="70" alt=""></a></div>
+						</div>
+						<div class="main_nav_container ml-auto">
+							<ul class="main_nav_list">
+								<li class="main_nav_item"><a href="index.html">Beranda</a></li>
+								<li class="main_nav_item"><a href="#akomodasi">Akomodasi</a></li>
+								<li class="main_nav_item"><a href="penginapan.html">Penginapan</a></li>
+								<li class="main_nav_item"><a href="pakettur.html">Paket Tur</a></li>
+								<li class="main_nav_item"><a href="blog.html">Untuk Kamu</a></li>
+							</ul>
+						</div>
+						<div class="content_search ml-lg-0 ml-auto">
+							<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+							width="17px" height="17px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+								<g>
+									<g>
+										<g>
+											<path class="mag_glass" fill="#FFFFFF" d="M78.438,216.78c0,57.906,22.55,112.343,63.493,153.287c40.945,40.944,95.383,63.494,153.287,63.494
+											s112.344-22.55,153.287-63.494C489.451,329.123,512,274.686,512,216.78c0-57.904-22.549-112.342-63.494-153.286
+											C407.563,22.549,353.124,0,295.219,0c-57.904,0-112.342,22.549-153.287,63.494C100.988,104.438,78.439,158.876,78.438,216.78z
+											M119.804,216.78c0-96.725,78.69-175.416,175.415-175.416s175.418,78.691,175.418,175.416
+											c0,96.725-78.691,175.416-175.416,175.416C198.495,392.195,119.804,313.505,119.804,216.78z"/>
+										</g>
+									</g>
+									<g>
+										<g>
+											<path class="mag_glass" fill="#FFFFFF" d="M6.057,505.942c4.038,4.039,9.332,6.058,14.625,6.058s10.587-2.019,14.625-6.058L171.268,369.98
+											c8.076-8.076,8.076-21.172,0-29.248c-8.076-8.078-21.172-8.078-29.249,0L6.057,476.693
+											C-2.019,484.77-2.019,497.865,6.057,505.942z"/>
+										</g>
+									</g>
+								</g>
+							</svg>
+						</div>
+
+						<form id="search_form" class="search_form bez_1">
+							<input type="search" class="search_content_input bez_1">
+						</form>
+
+						<div class="hamburger">
+							<i class="fa fa-bars trans_200"></i>
+						</div>
+					</div>
+				</div>
+			</div>	
+		</nav>
+
+	</header>
+
+	<div class="menu trans_500">
+		<div class="menu_content d-flex flex-column align-items-center justify-content-center text-center">
+			<div class="menu_close_container"><div class="menu_close"></div></div>
+			<div class="logo menu_logo"><a href="#"><img src="images/logo.png" alt=""></a></div>
+			<ul>
+				<li class="menu_item"><a href="index.html">Beranda</a></li>
+				<li class="menu_item"><a href="#akomodasi">Akomodasi</a></li>
+				<li class="menu_item"><a href="penginapan.html">Penginapan</a></li>
+				<li class="menu_item"><a href="pakettur.html">Paket Tur</a></li>
+				<li class="menu_item"><a href="blog.html">Untuk Kamu</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- Home -->
+
+	<div class="home">
+		
+		<!-- Home Slider -->
+
+		<div class="home_slider_container">
+			
+			<div class="owl-carousel owl-theme home_slider">
+
+				<!-- Slider Item -->
+				<div class="owl-item home_slider_item">
+					<div class="home_slider_background" style="background-image:url(images/home_slider1.png)"></div>
+
+					<div class="home_slider_content text-center">
+						<div class="home_slider_content_inner" data-animation-in="flipInX" data-animation-out="animate-out fadeOut">
+							<h1>Paket</h1>
+							<h1>Family</h1>
+							<div class="button home_slider_button"><div class="button_bcg"></div><a href="pakettur.html">pesan sekarang<span></span><span></span><span></span></a></div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Slider Item -->
+				<div class="owl-item home_slider_item">
+					<div class="home_slider_background" style="background-image:url(images/home_slider2.png)"></div>
+
+					<div class="home_slider_content text-center">
+						<div class="home_slider_content_inner" data-animation-in="flipInX" data-animation-out="animate-out fadeOut">
+							<h1>Promo</h1>
+							<h1>Surfing</h1>
+							<div class="button home_slider_button"><div class="button_bcg"></div><a href="pakettur.html">pesan sekarang<span></span><span></span><span></span></a></div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Slider Item -->
+				<div class="owl-item home_slider_item">
+					<div class="home_slider_background" style="background-image:url(images/home_slider3.png)"></div>
+
+					<div class="home_slider_content text-center">
+						<div class="home_slider_content_inner" data-animation-in="flipInX" data-animation-out="animate-out fadeOut">
+							<h1>Paket</h1>
+							<h1>Hiking Squad</h1>
+							<div class="button home_slider_button"><div class="button_bcg"></div><a href="pakettur.html">pesan sekarang<span></span><span></span><span></span></a></div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			
+			<!-- Home Slider Nav - Prev -->
+			<div class="home_slider_nav home_slider_prev">
+				<svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+					width="28px" height="33px" viewBox="0 0 28 33" enable-background="new 0 0 28 33" xml:space="preserve">
+					<defs>
+						<linearGradient id='home_grad_prev'>
+							<stop offset='0%' stop-color='#fa9e1b'/>
+							<stop offset='100%' stop-color='#A0BCC2'/>
+						</linearGradient>
+					</defs>
+					<path class="nav_path" fill="#F3F6F9" d="M19,0H9C4.029,0,0,4.029,0,9v15c0,4.971,4.029,9,9,9h10c4.97,0,9-4.029,9-9V9C28,4.029,23.97,0,19,0z
+					M26,23.091C26,27.459,22.545,31,18.285,31H9.714C5.454,31,2,27.459,2,23.091V9.909C2,5.541,5.454,2,9.714,2h8.571
+					C22.545,2,26,5.541,26,9.909V23.091z"/>
+					<polygon class="nav_arrow" fill="#F3F6F9" points="15.044,22.222 16.377,20.888 12.374,16.885 16.377,12.882 15.044,11.55 9.708,16.885 11.04,18.219 
+					11.042,18.219 "/>
+				</svg>
+			</div>
+			
+			<!-- Home Slider Nav - Next -->
+			<div class="home_slider_nav home_slider_next">
+				<svg version="1.1" id="Layer_3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+				width="28px" height="33px" viewBox="0 0 28 33" enable-background="new 0 0 28 33" xml:space="preserve">
+					<defs>
+						<linearGradient id='home_grad_next'>
+							<stop offset='0%' stop-color='#fa9e1b'/>
+							<stop offset='100%' stop-color='#A0BCC2'/>
+						</linearGradient>
+					</defs>
+				<path class="nav_path" fill="#F3F6F9" d="M19,0H9C4.029,0,0,4.029,0,9v15c0,4.971,4.029,9,9,9h10c4.97,0,9-4.029,9-9V9C28,4.029,23.97,0,19,0z
+				M26,23.091C26,27.459,22.545,31,18.285,31H9.714C5.454,31,2,27.459,2,23.091V9.909C2,5.541,5.454,2,9.714,2h8.571
+				C22.545,2,26,5.541,26,9.909V23.091z"/>
+				<polygon class="nav_arrow" fill="#F3F6F9" points="13.044,11.551 11.71,12.885 15.714,16.888 11.71,20.891 13.044,22.224 18.379,16.888 17.048,15.554 
+				17.046,15.554 "/>
+				</svg>
+			</div>
+
+			<!-- Home Slider Dots -->
+
+			<div class="home_slider_dots">
+				<ul id="home_slider_custom_dots" class="home_slider_custom_dots">
+					<li class="home_slider_custom_dot active"><div></div>01.</li>
+					<li class="home_slider_custom_dot"><div></div>02.</li>
+					<li class="home_slider_custom_dot"><div></div>03.</li>
+				</ul>
+			</div>
+		</div>
+
+	</div>
+
+<!-- Intro -->
+	
+<div class="intro">
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<h2 class="intro_title text-center" id="akomodasi">Gak usah pusing mikirin transportasi, cari dulu aja!</h2>
+			</div>
+		</div>
+	</div>
+</div>
+
+	<!-- Search -->
+
+	<div class="search">
+		
+		<!-- Search Contents -->
+		
+		<div class="container fill_height">
+			<div class="row fill_height">
+				<div class="col fill_height">
+
+					<!-- Search Tabs -->
+					<div class="search_tabs_container">
+						<div class="search_tabs d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-lg-between justify-content-start">
+							<div class="search_tab d-flex flex-row align-items-center justify-content-lg-center justify-content-start"><img src="images/departure.png" alt="">Penerbangan</div>
+							<div class="search_tab d-flex flex-row align-items-center justify-content-lg-center justify-content-start"><img src="images/train.png" alt="">Kereta Api</div>
+							<div class="search_tab d-flex flex-row align-items-center justify-content-lg-center justify-content-start"><img src="images/bus.png" alt="">Bus & Travel</div>
+							<div class="search_tab d-flex flex-row align-items-center justify-content-lg-center justify-content-start"><img src="images/car.png" alt="">Rental Mobil</div>
+						</div>		
+					</div>
+
+					<!-- Search Panel -->
+
+					<div class="search_panel active">
+						<form action="#" id="search_form_1" class="search_panel_content d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-lg-between justify-content-start">
+							<div class="search_item">
+								<div>Tanggal Pergi</div>
+								<input type="date" class="destination search_input" required="required">
+							</div>
+							<div class="search_item">
+								<div>Dari</div>
+								<input type="text" class="check_in search_input">
+							</div>
+							<div class="search_item">
+								<div>Ke</div>
+								<input type="text" class="check_out search_input">
+							</div>
+							<div class="search_item">
+								<div>Dewasa</div>
+								<input type="number" class="check_out search_input" value ="1">
+
+							</div>
+							<div class="search_item">
+								<div>Bayi</div>
+								<input type="number" class="check_out search_input" value ="0">
+
+							</div>
+							<!-- <div class="extras">
+								<ul class="search_extras clearfix">
+									<li class="search_extras_item">
+										<div class="clearfix">
+											<input type="checkbox" id="search_extras_1" class="search_extras_cb">
+											<label for="search_extras_1">Pulang Pergi</label>
+										</div>	
+									</li>
+								</ul>
+							</div> -->
+							<button class="button search_button"><a href="offers_penerbangan.html">cari  </a><span></span><span></span><span></span></button>
+						</form>
+					</div>
+
+					<!-- Search Panel -->
+
+					<div class="search_panel">
+						<form action="#" id="search_form_2" class="search_panel_content d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-lg-between justify-content-start">
+							<div class="search_item">
+								<div>Tanggal Pergi</div>
+								<input type="date" class="destination search_input" required="required">
+							</div>
+							<div class="search_item">
+								<div>Dari</div>
+								<input type="text" class="check_in search_input">
+							</div>
+							<div class="search_item">
+								<div>Ke</div>
+								<input type="text" class="check_out search_input">
+							</div>
+							<div class="search_item">
+								<div>Dewasa</div>
+								<input type="number" class="check_out search_input" value ="1">
+
+							</div>
+							<div class="search_item">
+								<div>Bayi</div>
+								<input type="number" class="check_out search_input" value ="0">
+
+							</div>
+							<button class="button search_button"><a href="offers_kereta.html">cari  </a><span></span><span></span><span></span></button>
+						</form>
+					</div>
+
+					<!-- Search Panel -->
+
+					<div class="search_panel">
+						<form action="#" id="search_form_3" class="search_panel_content d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-lg-between justify-content-start">
+							<div class="search_item">
+								<div>Tanggal Pergi</div>
+								<input type="date" class="destination search_input" required="required">
+							</div>
+							<div class="search_item">
+								<div>Dari</div>
+								<input type="text" class="check_in search_input">
+							</div>
+							<div class="search_item">
+								<div>Ke</div>
+								<input type="text" class="check_out search_input">
+							</div>
+							<div class="search_item">
+								<div>Jumlah Kursi</div>
+								<input type="number" class="check_out search_input" value ="1">
+
+							</div>
+							<button class="button search_button"><a href="offers_bus.html">cari  </a><span></span><span></span><span></span></button>
+						</form>
+					</div>
+
+					<!-- Search Panel -->
+
+					<div class="search_panel">
+						<form action="#" id="search_form_4" class="search_panel_content d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-lg-between justify-content-start">
+							<div class="search_item">
+								<div>Lokasi Sewa</div>
+								<input type="text" class="check_in search_input">
+							</div>
+							<div class="search_item">
+								<div>Tanggal Mulai</div>
+								<input type="date" class="destination search_input" required="required">
+							</div>
+							<div class="search_item">
+								<div>Tanggal Selesai</div>
+								<input type="date" class="destination search_input" required="required">
+							</div>
+							<div class="search_item">
+								<div>Jumlah Mobil</div>
+								<input type="number" class="check_out search_input" value ="1">
+
+							</div>
+							<button class="button search_button"><a href="offers_rental.html">cari  </a><span></span><span></span><span></span></button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>		
+	</div>
+
+<!-- Pesan Penginapan -->
+
+	<div class="intro">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<h2 class="intro_title text-center">Pesan penginapan sesuai selera!</h2>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="row_intro_items">
+		<div class="col_intro_items">
+				<div class="intro_item_content">
+					<img src="images/intro_hotel.jpg">
+					<div class="intro_center text-center">
+						<h1>Hotel</h1>
+					</div>
+					<div class="button intro_button"><div class="button_bcg"></div><a href="penginapan.html">lihat lebih banyak<span></span><span></span><span></span></a></div>
+				</div>
+		</div>
+
+		<div class="col_intro_items">
+			<div class="intro_item_content">
+				<img src="images/intro_homestay.jpg">
+				<div class="intro_center text-center">
+					<h1>Homestay</h1>
+				</div>
+				<div class="button intro_button">
+					<div class="button_bcg"></div><a href="penginapan.html">lihat lebih banyak<span></span><span></span><span></span></a>
+				</div>
+			</div>
+		</div>
+
+		<div class="col_intro_items">
+			<div class="intro_item_content">
+				<img src="images/intro_villa.jpg">
+				<div class="intro_center text-center">
+					<h1>Villa</h1>
+				</div>
+				<div class="button intro_button"><div class="button_bcg"></div><a href="penginapan.html">lihat lebih banyak<span></span><span></span><span></span></a></div>
+			</div>
+		</div>
+
+		<div class="col_intro_items">
+			<div class="intro_item_content">
+				<img src="images/intro_hotelkapsul.jpg">
+				<div class="intro_center text-center">
+					<h1>Hotel Kapsul</h1>
+				</div>
+				<div class="button intro_button"><div class="button_bcg"></div><a href="penginapan.html">lihat lebih banyak<span></span><span></span><span></span></a></div>
+			</div>
+		</div> 
+	</div>
+
+	<!-- Pesan Paket Tur -->
+
+	<div class="intro">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<h2 class="intro_title text-center">Bingung mau kemana dan ngapain? Serahkan ke kami aja!</h2>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="row_intro_items">
+		<div class="col_intro_items">
+				<div class="intro_item_content">
+					<img src="images/intro_perorangan.jpg">
+					<div class="intro_center text-center">
+						<h1>Perorangan</h1>
+					</div>
+					<div class="button intro_button"><div class="button_bcg"></div><a href="pakettur.html">lihat lebih banyak<span></span><span></span><span></span></a></div>
+				</div>
+		</div>
+
+		<div class="col_intro_items">
+			<div class="intro_item_content">
+				<img src="images/intro_grup.jpg">
+				<div class="intro_center text-center">
+					<h1>Grup</h1>
+				</div>
+				<div class="button intro_button"><div class="button_bcg"></div><a href="pakettur.html">lihat lebih banyak<span></span><span></span><span></span></a></div>
+			</div>
+		</div>
+
+		<div class="col_intro_items">
+			<div class="intro_item_content">
+				<img src="images/intro_keluarga.jpg">
+				<div class="intro_center text-center">
+					<h1>Keluarga</h1>
+				</div>
+				<div class="button intro_button"><div class="button_bcg"></div><a href="pakettur.html">lihat lebih banyak<span></span><span></span><span></span></a></div>
+			</div>
+		</div>
+
+		<div class="col_intro_items">
+			<div class="intro_item_content">
+				<img src="images/intro_instansi.jpg">
+				<div class="intro_center text-center">
+					<h1>Instansi</h1>
+				</div>
+				<div class="button intro_button"><div class="button_bcg"></div><a href="pakettur.html">lihat lebih banyak<span></span><span></span><span></span></a></div>
+			</div>
+		</div> 
+	</div>
+
+	<!-- Testimonials -->
+
+	<div class="testimonials">
+		<div class="test_border"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col text-center">
+					<h2 class="section_title">Masih Bingung? Ayo Baca Ini!</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					
+					<!-- Testimonials Slider -->
+
+					<div class="test_slider_container">
+						<div class="owl-carousel owl-theme test_slider">
+
+							<!-- Testimonial Item -->
+							<div class="owl-item">
+								<div class="test_item">
+									<div class="test_image"><a href="blogbalidetails.html"></a><img src="images/BaliLatest.jpg" alt="https://unsplash.com/@thesologirlstravelguide"></div>
+									<div class="test_content_container">
+										<div class="test_content">
+											<div class="test_item_info">
+												<div class="test_name">Tiara</div>
+												<div class="test_date">26 Mei 2022</div>
+											</div>
+											<div class="test_quote_title"><a href="blogbalidetails.html">Bali dan Segala Keindahannya</a></div>
+											
+											<p class="test_quote_text">Bali adalah pulau yang indah. Kamu yakin ga mau liburan ke sini?</p>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- Testimonial Item -->
+							<div class="owl-item">
+								<div class="test_item">
+									<div class="test_image"><img src="images/LombokLatest.jpg" alt="https://unsplash.com/@christoffere"></div>
+									<div class="test_content_container">
+										<div class="test_content">
+											<div class="test_item_info">
+												<div class="test_name">Lizzie</div>
+												<div class="test_date">16 Maret 2022</div>
+											</div>
+											<div class="test_quote_title"><a href="bloglombokdetails.html">Keunikan Pulau Lombok</a></div>
+											<p class="test_quote_text">Yakin kamu ga mau tahu tentang keunikan Pulau Lombok?</p>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- Testimonial Item -->
+							<div class="owl-item">
+								<div class="test_item">
+									<div class="test_image"><img src="images/RajaAmpatLatest.jpg" alt="https://unsplash.com/@seefromthesky"></div>
+									<div class="test_content_container">
+										<div class="test_content">
+											<div class="test_item_info">
+												<div class="test_name">Karrie</div>
+												<div class="test_date">5 Februari 2022</div>
+											</div>
+											<div class="test_quote_title"><a href="blograjaampatdetails.html">Persiapan Menuju Surga Raja Ampat</a></div>
+											<p class="test_quote_text">Untuk kamu yang belum tahu mau apa yang harus disiapin ke Raja Ampat</p>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- Testimonial Item -->
+							<div class="owl-item">
+								<div class="test_item">
+									<div class="test_image"><img src="images/BromoLatest.jpg" alt=""></div>
+									<div class="test_content_container">
+										<div class="test_content">
+											<div class="test_item_info">
+												<div class="test_name">Shawne</div>
+												<div class="test_date">30 Desember 2021</div>
+											</div>
+											<div class="test_quote_title"><a href="blogbromodetails.html">Bromo dan Keindahannya</a></div>
+											<p class="test_quote_text">Gunung Bromo dengan seribu keindahannya ini sangat layak untuk dikunjungi. Kamu yakin ga penasaran?</p>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- Testimonial Item -->
+							<div class="owl-item">
+								<div class="test_item">
+									<div class="test_image"><img src="images/TernateLatest.jpg" alt=""></div>
+									<div class="test_content_container">
+										<div class="test_content">
+											<div class="test_item_info">
+												<div class="test_name">Mikhayel</div>
+												<div class="test_date">1 November 2021</div>
+											</div>
+											<div class="test_quote_title"><a href="blogternatedetails.html">Ternate dan Rahasianya</a></div>
+											<p class="test_quote_text">Kamu yakin ga mau mampir ke kota seribu benteng ini? Mau tahu rahasianya ga?</p>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- Testimonial Item -->
+							<div class="owl-item">
+								<div class="test_item">
+									<div class="test_image"><img src="images/KebunRayaLatest.jpg" alt=""></div>
+									<div class="test_content_container">
+										<div class="test_content">
+											<div class="test_item_info">
+												<div class="test_name">Sabda</div>
+												<div class="test_date">27 Oktober 2021</div>
+											</div>
+											<div class="test_quote_title"><a href="blogbotanicalgardendetails.html">Road To Kebun Raya Bogor</a></div>
+											<p class="test_quote_text">Ke Kebun? Apa aja tuh yang harus disiapin? Yuk dibaca di sini!</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							
+						</div>
+						
+
+						<!-- Testimonials Slider Nav - Prev -->
+						<div class="test_slider_nav test_slider_prev">
+							<svg version="1.1" id="Layer_6" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+								width="28px" height="33px" viewBox="0 0 28 33" enable-background="new 0 0 28 33" xml:space="preserve">
+								<defs>
+									<linearGradient id='test_grad_prev'>
+										<stop offset='0%' stop-color='#fa9e1b'/>
+										<stop offset='100%' stop-color='#A0BCC2'/>
+									</linearGradient>
+								</defs>
+								<path class="nav_path" fill="#F3F6F9" d="M19,0H9C4.029,0,0,4.029,0,9v15c0,4.971,4.029,9,9,9h10c4.97,0,9-4.029,9-9V9C28,4.029,23.97,0,19,0z
+								M26,23.091C26,27.459,22.545,31,18.285,31H9.714C5.454,31,2,27.459,2,23.091V9.909C2,5.541,5.454,2,9.714,2h8.571
+								C22.545,2,26,5.541,26,9.909V23.091z"/>
+								<polygon class="nav_arrow" fill="#F3F6F9" points="15.044,22.222 16.377,20.888 12.374,16.885 16.377,12.882 15.044,11.55 9.708,16.885 11.04,18.219 
+								11.042,18.219 "/>
+							</svg>
+						</div>
+						
+						<!-- Testimonials Slider Nav - Next -->
+						<div class="test_slider_nav test_slider_next">
+							<svg version="1.1" id="Layer_7" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+							width="28px" height="33px" viewBox="0 0 28 33" enable-background="new 0 0 28 33" xml:space="preserve">
+								<defs>
+									<linearGradient id='test_grad_next'>
+										<stop offset='0%' stop-color='#fa9e1b'/>
+										<stop offset='100%' stop-color='#A0BCC2'/>
+									</linearGradient>
+								</defs>
+							<path class="nav_path" fill="#F3F6F9" d="M19,0H9C4.029,0,0,4.029,0,9v15c0,4.971,4.029,9,9,9h10c4.97,0,9-4.029,9-9V9C28,4.029,23.97,0,19,0z
+							M26,23.091C26,27.459,22.545,31,18.285,31H9.714C5.454,31,2,27.459,2,23.091V9.909C2,5.541,5.454,2,9.714,2h8.571
+							C22.545,2,26,5.541,26,9.909V23.091z"/>
+							<polygon class="nav_arrow" fill="#F3F6F9" points="13.044,11.551 11.71,12.885 15.714,16.888 11.71,20.891 13.044,22.224 18.379,16.888 17.048,15.554 
+							17.046,15.554 "/>
+							</svg>
+						</div>
+					</div>	
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Kenapa Harus Kami -->
+
+	<div class="intro2">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<h2 class="intro_title2 text-center">Kenapa harus kami?</h2>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="row_intro_items2">
+		<div class="col_intro_items2">
+				<div class="intro_item_content2">
+					<img src="images/umkm.png">
+					<div class="intro_center2 text-center">
+						<h1>Mendukung UMKM</h1>
+					</div>
+				</div>
+		</div>
+
+		<div class="col_intro_items2">
+			<div class="intro_item_content2">
+				<img src="images/solusi.png">
+				<div class="intro_center2 text-center">
+					<h1>Solusi Terbaik</h1>
+				</div>
+			</div>
+		</div>
+
+		<div class="col_intro_items2">
+			<div class="intro_item_content2">
+				<img src="images/terpercaya.png">
+				<div class="intro_center2 text-center">
+					<h1>Terpercaya</h1>
+				</div>
+			</div>
+		</div>
+
+		<div class="col_intro_items2">
+			<div class="intro_item_content2">
+				<img src="images/pilihan.png">
+				<div class="intro_center2 text-center">
+					<h1>Banyak Pilihan</h1>
+				</div>
+			</div>
+		</div> 
+	</div>
+
+	<!-- Footer -->
+
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+
+				<!-- Footer Column -->
+				<div class="col-lg-3 footer_column">
+					<div class="footer_col">
+						<div class="footer_content footer_about">
+							<div class="logo_container footer_logo">
+								<div class="logo"><a href="#"><img src="images/logo.png" width="34" height="34" alt="">shima</a></div>
+							</div>
+							<p class="footer_about_text">Mitra</p>
+                    </div>
+                </div>
+            </div>
+
+				<!-- Footer Column -->
+				<div class="col-lg-3 footer_column">
+					<div class="footer_col">
+						<div class="footer_title">Tentang Kami</div>
+					</div>
+				</div>
+	
+				<div class="col-lg-3 footer_column">
+					<div class="footer_col">
+						<div class="footer_title">Ikuti Kami</div>
+						<div class="footer_content footer_tags">
+							<ul class="tags_list clearfix">
+								<li class="tag_item"><a href="#">Instagram</a></li>
+								<li class="tag_item"><a href="#">Twitter</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+	
+				<!-- Footer Column -->
+				<div class="col-lg-3 footer_column">
+					<div class="footer_col">
+						<div class="footer_title">Produk Kami</div>
+						<div class="footer_content footer_contact">
+							<ul class="contact_info_list">
+								<li class="contact_info_item d-flex flex-row">
+									<div class="contact_info_text"><a href="#akomodasi">Akomodasi</a></div>
+								</li>
+								<li class="contact_info_item d-flex flex-row">
+									<div class="contact_info_text"><a href="penginapan.html">Penginapan</a></div>
+								</li>
+								<li class="contact_info_item d-flex flex-row">
+									<div class="contact_info_text"><a href="pakettur.html">Paket Tur</a></div>
+								</li>
+								<li class="contact_info_item d-flex flex-row">
+									<div class="contact_info_text"><a href="blog.html">Untuk Kamu</a></div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+	
+			</div>
+		</div>
+	</footer>
+	
+	<!-- Copyright -->
+	
+	<div class="copyright">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 order-lg-1 order-2  ">
+					<div class="copyright_content d-flex flex-row align-items-center">
+						<div> Copyright &copy;<script>document.write(new Date().getFullYear());</script> Kelompok 3 IMK </div>
+					</div>
+				</div>
+				<div class="col-lg-9 order-lg-2 order-1">
+					<div class="footer_nav_container d-flex flex-row align-items-center justify-content-lg-end">
+						<div class="footer_nav">
+							<ul class="footer_nav_list">
+								<li class="footer_nav_item"><a href="index.html">Beranda</a></li>
+								<li class="footer_nav_item"><a href="index.html">Akomodasi</a></li>
+								<li class="footer_nav_item"><a href="penginapan.html">Penginapan</a></li>
+								<li class="footer_nav_item"><a href="pakettur.html">Paket Tur</a></li>
+								<li class="footer_nav_item"><a href="blog.html">Untuk Kamu</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="styles/bootstrap4/popper.js"></script>
+<script src="styles/bootstrap4/bootstrap.min.js"></script>
+<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+<script src="plugins/easing/easing.js"></script>
+<script src="js/custom.js"></script>
+
+</body>
+
+</html>
